@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Music App</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e2125;
+            color: #fff;
+        }
+        
+        header {
+            background-color: #1e2125;
+            padding: 15px;
+        }
+        
+        .top-bar {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .sign-up,
+        .sign-in {
+            margin-right: 15px;
+            background-color: whitesmoke;
+            color: #fff;
+            padding: 10px 15px;	
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .popular-artists {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .artist-carousel {
+            display: flex;
+            overflow-x: auto;
+        }
+        
+        .artist-card {
+            flex: 0 0 auto;
+            margin-right: 15px;
+            text-align: center;
+        }
+        
+        .artist-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+        .artist-card p {
+            margin-top: 10px;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .footer {
+            background-color: #1e2125;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            width: 10%;  
+            float:inline-start; 
+        }
+        .social-icons img {
+            margin-right: 10px;
+        }
+
+        /* Scrollbar Styles */
+        /* For Webkit browsers */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #000;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <button class="sign-up"><font color="Black">Sign Up</font></button>
+            <button class="sign-in"><font color="Black"><a href="3.html" target="_blank">Log in</a></font></button>
+        </div>
+    </header>
+    <main>
+        <section class="popular-artists">
+            <h2>Popular Artists</h2>
+            <a href="2.html"><h3 color="white"align="right">Show all</h3></a>
+            <div class="artist-carousel">
+                <div class="artist-card">
+                    <img src="spb.jpeg" alt="S.P.Balasubramanyam"><a href="2.html">
+                    <p>S.P,Balasubramanyam</p>
+                </div></a>
+                <div class="artist-card">
+                    <img src="arjit.jpeg" alt="Arijit Singh"><a href="2.html">
+                    <p>Arijit Singh</p>
+                </div></a>
+                <div class="artist-card">
+                    <img src="anirudh.jpeg" alt="Anirudh Ravichander"><a href="2.html">
+                    <p>Anirudh Ravichander</p>
+                </div></a>
+                <div class="artist-card">
+                    <img src="shreya.jpeg" alt="Shreya Ghoshal"><a href="2.html">
+                    <p>Shreya Ghoshal</p>
+                </div></a>
+                <div class="artist-card">
+                    <img src="arrahman.jpeg" alt="A.R. Rahman"><a href="2.html">
+                    <p>A.R. Rahman</p>
+                </div></a>
+                <div class="artist-card">
+                    <img src="alka.jpeg" alt="Alka Yagnik"><a href="2.html">
+                    <p>Alka Yagnik</p>
+                </div></a>
+            </div>
+        </section>
+    <hr color="#000000">
+
+    </main>
+    <!-- <div class="social-icons"></div>
+        <a href="https://www.instagram.com/spotify/"><img src="instagram.png" width="9%"alt="Instagram"></a>
+        <a href="https://twitter.com/spotify"><img src="twitter.png" width="9%"alt="Twitter"></a>
+        <a href="https://www.facebook.com/spotify"><img src="facebook.png"  width="9%"alt="Facebook"></a> 
+    </div> -->
+        <table style="border-spacing: 10px; width: 900px; margin: top 20px;">
+            <tr>
+                <td><strong>Company</strong></td>
+                <td><strong>Communities</strong></td>
+                <td><strong>Useful links</strong></td>
+            </tr>
+            <tr>
+                <td>About</td>
+                <td>For Artists</td>
+                <td>Support</td>
+            </tr>
+            <tr>
+                <td>Jobs</td>
+                <td>Developers</td>
+                <td>Free Mobile App</td>
+            </tr>
+            <tr>
+                <td>For the record</td>
+                <td>Advertising</td>
+            </tr>
+            <tr>
+                <td>         </td>
+                <td>Investors</td>
+            </tr>
+            <tr>
+                <td>         </td>
+                <td>Vendors</td>
+            </tr>
+        </table>
+<br>
+<hr color="#000000">
+<footer>
+    <div class="footer">
+        <p><font color="White">© 2024 Spotify AB</font></p>
+    </div>
+</footer>
+</body>
+</html>
